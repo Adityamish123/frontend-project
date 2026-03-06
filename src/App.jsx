@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/header';       
-import Footer from './components/Footer';      
-import NavBar from './components/Navbar';       
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import NavBar from "./components/Navbar";    
 import HospitalDashboard from './pages/hospital/HospitalDashboard';
-import Inventory from './pages/blood bank/Inventory';
-import BloodBankDashboard from './pages/blood bank/BloodBankDashboard';
+import Inventory from './pages/blood-bank/Inventory';
+import BloodBankDashboard from './pages/blood-bank/BloodBankDashboard';
 import Home from './pages/home';                
 import Login from './pages/Login';
 import Register from './pages/Register';
